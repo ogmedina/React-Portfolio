@@ -63,7 +63,7 @@ function Experience() {
                     </li>
                 </ul>
             </Container>
-        </section>       
+        </section>
         </>
     )
 }

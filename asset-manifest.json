@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.3caed526.chunk.css",
+    "main.js": "/React-Portfolio/static/js/main.82a1d29f.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.82a1d29f.chunk.js.map",
+    "runtime-main.js": "/React-Portfolio/static/js/runtime-main.f9f1a0d1.js",
+    "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.f9f1a0d1.js.map",
+    "static/js/2.89efcd59.chunk.js": "/React-Portfolio/static/js/2.89efcd59.chunk.js",
+    "static/js/2.89efcd59.chunk.js.map": "/React-Portfolio/static/js/2.89efcd59.chunk.js.map",
+    "static/js/3.b8d52f22.chunk.js": "/React-Portfolio/static/js/3.b8d52f22.chunk.js",
+    "static/js/3.b8d52f22.chunk.js.map": "/React-Portfolio/static/js/3.b8d52f22.chunk.js.map",
+    "index.html": "/React-Portfolio/index.html",
+    "static/css/main.3caed526.chunk.css.map": "/React-Portfolio/static/css/main.3caed526.chunk.css.map",
+    "static/js/2.89efcd59.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.89efcd59.chunk.js.LICENSE.txt",
+    "static/media/BudgetTracker1.4cb4a2e3.jpg": "/React-Portfolio/static/media/BudgetTracker1.4cb4a2e3.jpg",
+    "static/media/TAMUK.5912f051.png": "/React-Portfolio/static/media/TAMUK.5912f051.png",
+    "static/media/App.css": "/React-Portfolio/static/media/map-image.3cd6dd98.png",
+    "static/media/burger.db6608e3.jpg": "/React-Portfolio/static/media/burger.db6608e3.jpg",
+    "static/media/employeemanager.087dbe7d.jpg": "/React-Portfolio/static/media/employeemanager.087dbe7d.jpg",
+    "static/media/mealmaker.670b03ff.JPG": "/React-Portfolio/static/media/mealmaker.670b03ff.JPG",
+    "static/media/morrisms.5ac73586.jpg": "/React-Portfolio/static/media/morrisms.5ac73586.jpg",
+    "static/media/palmviewedit.17b9235c.png": "/React-Portfolio/static/media/palmviewedit.17b9235c.png",
+    "static/media/passwordgenerator.1f52828d.JPG": "/React-Portfolio/static/media/passwordgenerator.1f52828d.JPG",
+    "static/media/profile2.7843800d.jpg": "/React-Portfolio/static/media/profile2.7843800d.jpg",
+    "static/media/stayinapp.093fc9b7.jpg": "/React-Portfolio/static/media/stayinapp.093fc9b7.jpg",
+    "static/media/utsa2.8b7e5bb5.jpg": "/React-Portfolio/static/media/utsa2.8b7e5bb5.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f9f1a0d1.js",
+    "static/js/2.89efcd59.chunk.js",
+    "static/css/main.3caed526.chunk.css",
+    "static/js/main.82a1d29f.chunk.js"
+  ]
+}

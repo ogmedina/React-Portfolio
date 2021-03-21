@@ -10,7 +10,7 @@ export const data =
 [
     {
         "id": 1,
-        "href": "React-Portfolio/projectone", 
+        "href": "/projectone", 
         "img": MealMaker,
         "alt": "Meal Maker App",
         "heading": "The Meal Maker App",

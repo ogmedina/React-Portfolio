@@ -22,7 +22,7 @@ function App() {
         
         <Route exact path="/" component={Main} />
         <Route exact path="/main" component={Main} />
-        <Route exact path="/React-Portfolio/projectone" component={ProjectOne}/>
+        <Route exact path="/projectone" component={ProjectOne}/>
         
         <Route component={NoMatch} />
         

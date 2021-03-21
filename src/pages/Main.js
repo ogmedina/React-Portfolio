@@ -1,5 +1,5 @@
 //import '../App.css';
-import Navigation from '../Components/NavBar/Nav';
+//import Navigation from '../Components/NavBar/Nav';
 import Masthead from '../Components/Masthead/Masthead';
 import Services from '../Components/ServBar/servbar';
 import Portfolio from '../Components/Portfolio/portfolio';
@@ -7,12 +7,12 @@ import Experience from '../Components/ExpBar/experience';
 import About from '../Components/About/about';
 import CodeBar from '../Components/CodeBar/codebar';
 import ContactBar from '../Components/ContactBar/contactbar';
-import Footer from '../Components/Footer/footer';
+//import Footer from '../Components/Footer/footer';
 
 function Main() {
     return (
       <>
-        <Navigation />
+        {/* <Navigation /> */}
           <Masthead />
             <Services />
               <Portfolio />
@@ -20,7 +20,7 @@ function Main() {
                   <About />
                     <CodeBar />
                       <ContactBar />
-        <Footer />    
+        {/* <Footer />     */}
       </>
     );
   }

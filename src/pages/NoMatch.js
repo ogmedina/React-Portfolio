@@ -1,6 +1,6 @@
 import React from "react";
 //import Container from "react-bootstrap/Container";
-import Navigation from '../Components/NavBar/Nav';
+//import Navigation from '../Components/NavBar/Nav';
 import Masthead from '../Components/Masthead/Masthead';
 import Footer from '../Components/Footer/footer';
 
@@ -9,7 +9,7 @@ import Footer from '../Components/Footer/footer';
 const NoMatch = () => {
   return (
       <>
-    <Navigation />
+    {/* <Navigation /> */}
         <Masthead />
         <br />
         <br />
@@ -25,7 +25,7 @@ const NoMatch = () => {
         <br />
         <br />
         <br />
-    <Footer />
+    {/* <Footer /> */}
     </>
   );
 };

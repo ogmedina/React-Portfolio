@@ -1,8 +1,9 @@
 import './App.css';
-import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
-//import Navigation from './Components/NavBar/Nav';
+import { HashRouter, Route, Switch} from "react-router-dom";
+import Navigation from './Components/NavBar/Nav';
 import Main from "./pages/Main";
-import NoMatch from "./pages/NoMatch"
+import NoMatch from "./pages/NoMatch";
+import ProjectOne from "./pages/Project1";
 // import Masthead from './Components/Masthead/Masthead';
 //import Services from './Components/ServBar/servbar';
 // import Portfolio from './Components/Portfolio/portfolio';
@@ -10,23 +11,25 @@ import NoMatch from "./pages/NoMatch"
 // import About from './Components/About/about';
 // import CodeBar from './Components/CodeBar/codebar';
 // import ContactBar from './Components/ContactBar/contactbar';
-// import Footer from './Components/Footer/footer';
+import Footer from './Components/Footer/footer';
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <HashRouter hashType="noslash">
     <div className="App">
-      
+    <Navigation />
       <Switch>
-      
+        
         <Route exact path="/" component={Main} />
         <Route exact path="/main" component={Main} />
+        <Route exact path="/React-Portfolio/projectone" component={ProjectOne}/>
         
         <Route component={NoMatch} />
         
       </Switch>
+    <Footer />
     </div>
-    </Router>
+    </HashRouter>
   );
 }
 

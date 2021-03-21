@@ -12,7 +12,7 @@ function Navigation() {
         {/* <img className="navbar-brand" src={Logo} alt="?"/> */}
         <Navbar className="navbar" collapseOnSelect expand="lg" bg="dark" fixed="top" variant="dark" id="mainNav">
             <Container>
-            <Navbar.Brand className="navbar-brand" href="/">Oscar Medina</Navbar.Brand>
+            <Navbar.Brand className="navbar-brand" href="/React-Portfolio/">Oscar Medina</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav navbarResponsive" >
                 <Nav className="ml-auto navbar-nav text-uppercase">

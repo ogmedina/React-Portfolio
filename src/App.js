@@ -1,5 +1,5 @@
 import './App.css';
-import { HashRouter, Route, Switch} from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import Navigation from './Components/NavBar/Nav';
 import Main from "./pages/Main";
 import NoMatch from "./pages/NoMatch";
@@ -15,21 +15,21 @@ import Footer from './Components/Footer/footer';
 
 function App() {
   return (
-    <HashRouter hashType="noslash">
+    <Router>
     <div className="App">
     <Navigation />
       <Switch>
         
         <Route exact path="/" component={Main} />
         <Route exact path="/main" component={Main} />
-        <Route exact path="/React-Portfolio/projectone" component={ProjectOne}/>
+        <Route exact path="/projectone" component={ProjectOne}/>
         
         <Route component={NoMatch} />
         
       </Switch>
     <Footer />
     </div>
-    </HashRouter>
+    </Router>
   );
 }
 

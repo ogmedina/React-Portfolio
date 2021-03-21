@@ -15,14 +15,14 @@ import Footer from './Components/Footer/footer';
 
 function App() {
   return (
-    <HashRouter>
+    <HashRouter hashType="noslash" basename="/React-Portfolio">
     <div className="App">
     <Navigation />
       <Switch>
         
         <Route exact path="/" component={Main} />
         <Route exact path="/main" component={Main} />
-        <Route exact path="/projectone" component={ProjectOne}/>
+        <Route exact path="/React-Portfolio/projectone" component={ProjectOne}/>
         
         <Route component={NoMatch} />
         

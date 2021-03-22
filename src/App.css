@@ -5546,6 +5546,8 @@ a.close.disabled {
   position: relative;
   flex: 1 1 auto;
   padding: 1rem;
+  margin-top: 125px;
+  background-color: black;
 }
 
 .modal-footer {

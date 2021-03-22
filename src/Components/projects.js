@@ -20,7 +20,7 @@ export const data =
     },
     {
         "id": 2,
-        "href": "#portfolioModal2",
+        "href": "/projecttwo",
         "img": Burger,     
         "alt": "Eat-Da-Burger! App",
         "heading": "Eat-Da-Burger! App",
@@ -28,7 +28,7 @@ export const data =
     },
     {
         "id": 3,
-        "href": "#portfolioModal3",
+        "href": "/projectthree",
         "img": EmployeeM,       
         "alt": "Employee Management",
         "heading": "Employee Management",
@@ -36,7 +36,7 @@ export const data =
     },
     {
         "id": 4,
-        "href": "#portfolioModal4",
+        "href": "/projectfour",
         "img": Password,
         "alt": "Password Generator",
         "heading": "Password Generator",
@@ -44,7 +44,7 @@ export const data =
     },
     {
         "id": 5,
-        "href": "#portfolioModal5",
+        "href": "/projectfive",
         "img": Stay,
         "alt": "Stay-In-App",
         "heading": "Stay-In-App",
@@ -52,7 +52,7 @@ export const data =
     },
     {
         "id": 6,
-        "href": "#portfolioModal6",
+        "href": "/projectsix",
         "img": Budget,       
         "alt": "Budget Tracker",
         "heading": "Budget Tracker",

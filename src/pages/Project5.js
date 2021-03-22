@@ -1,10 +1,12 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Stay from "../Components/Portfolio/Images/stayinapp.jpg"
+import Header from "../Components/Header/Header";
 
 function ProjectFive() {
     return (
         <>
+        <Header />
         <Container>
             <div className="row justify-content-center">
                 <div className="col-lg-8">

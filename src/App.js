@@ -1,6 +1,5 @@
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Navigation from './Components/NavBar/Nav';
 import Main from "./pages/Main";
 import NoMatch from "./pages/NoMatch";
 import ProjectOne from "./pages/Project1";
@@ -9,22 +8,13 @@ import ProjectThree from "./pages/Project3";
 import ProjectFour from "./pages/Project4";
 import ProjectFive from "./pages/Project5";
 import ProjectSix from "./pages/Project6";
-// import Masthead from './Components/Masthead/Masthead';
-//import Services from './Components/ServBar/servbar';
-// import Portfolio from './Components/Portfolio/portfolio';
-// import Experience from './Components/ExpBar/experience';
-// import About from './Components/About/about';
-// import CodeBar from './Components/CodeBar/codebar';
-// import ContactBar from './Components/ContactBar/contactbar';
 import Footer from './Components/Footer/footer';
 
 function App() {
   return (
     <Router>
-    <div className="App">
-    <Navigation />
-      <Switch>
-        
+    <div className="App">    
+      <Switch>        
         <Route exact path="/" component={Main} />
         <Route exact path="/main" component={Main} />
         <Route exact path="/projectone" component={ProjectOne} />
@@ -32,14 +22,10 @@ function App() {
         <Route exact path="/projectthree" component={ProjectThree} /> 
         <Route exact path="/projectfour" component={ProjectFour} /> 
         <Route exact path="/projectfive" component={ProjectFive} /> 
-        <Route exact path="/projectsix" component={ProjectSix} /> 
-
-        
-        <Route exact component={NoMatch} />
-        
-      
-    <Footer />
-    </Switch>
+        <Route exact path="/projectsix" component={ProjectSix} />         
+        <Route exact component={NoMatch} />    
+      </Switch>
+      <Footer />
     </div>
     </Router>
   );

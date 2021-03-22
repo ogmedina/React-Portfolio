@@ -1,10 +1,12 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Burger from "../Components/Portfolio/Images/burger.jpg"
+import Header from "../Components/Header/Header";
 
 function ProjectTwo() {
     return (
         <>
+        <Header />
         <Container>
             <div className="row justify-content-center">
                 <div className="col-lg-8">

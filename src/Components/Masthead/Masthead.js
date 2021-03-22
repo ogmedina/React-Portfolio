@@ -1,5 +1,6 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
+import { scroller } from 'react-scroll'
 
 function Masthead() {
     return (
@@ -8,7 +9,11 @@ function Masthead() {
             <Container>
                 <div className="masthead-heading text-uppercase">Oscar G. Medina</div>
                 <div className="masthead-subheading">Full-Stack Web Developer</div>
-                <a className="btn btn-primary btn-x1 text-uppercase" href="#services">Tell Me More</a>
+                <button className="btn btn-primary btn-x1 text-uppercase" onClick={() => scroller.scrollTo('services', {
+                    smooth: true,
+                    offset: -70,
+                    duration: 500,
+                })} >Tell Me More</button>
             </Container>
         </header>    
         </>

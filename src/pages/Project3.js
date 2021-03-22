@@ -1,10 +1,12 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
 import EmployeeM from "../Components/Portfolio/Images/employeemanager.jpg"
+import Header from "../Components/Header/Header";
 
 function ProjectThree() {
     return (
         <>
+        <Header />
         <Container>
             <div className="row justify-content-center">
                 <div className="col-lg-8">

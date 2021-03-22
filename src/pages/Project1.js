@@ -1,11 +1,13 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
 import MealMaker from "../Components/Portfolio/Images/mealmaker.JPG"
+import Header from "../Components/Header/Header";
 
 function ProjectOne() {
     return (
         <>
-        <Container>
+        <Header />
+        <Container>            
             <div className="row justify-content-center">
                 <div className="col-lg-8">
                     <div className="modal-body">                                    

@@ -27,11 +27,7 @@ function Portfolio() {
                         </div>
                     </div>
                 </div>
-
-
-                    )}
-                    
-
+                )}
                 </div>             
             </Container>
         </section>

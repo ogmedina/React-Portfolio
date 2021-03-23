@@ -27,8 +27,8 @@ npm start
 The app is hosted using Heroku here at this link: [Heroku Hosted Site](https://guarded-island-18861.herokuapp.com/)
 
 ### Screenshots 
-![]()
-![]()
+![Reactportfolio1](https://github.com/ogmedina/React-Portfolio/blob/main/public/Readme_Images/reactportfolio1.jpg)
+![reactportfolio2](https://github.com/ogmedina/React-Portfolio/blob/main/public/Readme_Images/reactportfolio2.jpg)
 
 ### License
 This project is licensed under the MIT License. 

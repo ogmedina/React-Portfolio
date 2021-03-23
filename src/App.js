@@ -32,22 +32,3 @@ function App() {
 }
 
 export default App;
-
-
-// function App() {
-//   return (
-//     <Router>
-//     <div className="App">
-//       <Navigation />
-//         <Masthead />
-//           <Services />
-//             <Portfolio />
-//               <Experience />
-//                 <About />
-//                   <CodeBar />
-//                     <ContactBar />
-//       <Footer />    
-//     </div>
-//     </Router>
-//   );
-// }

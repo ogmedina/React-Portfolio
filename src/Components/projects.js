@@ -3,7 +3,8 @@ import Burger from "./Portfolio/Images/burger.jpg"
 import EmployeeM from "./Portfolio/Images/employeemanager.jpg"
 import Password from "./Portfolio/Images/passwordgenerator.JPG"
 import Stay from "./Portfolio/Images/stayinapp.jpg"
-import Budget from "./Portfolio/Images/BudgetTracker1.jpg"
+//import Budget from "./Portfolio/Images/BudgetTracker1.jpg"
+import Book from "./Portfolio/Images/googlebooksearch1.jpg"
 
 export const data =
 
@@ -53,10 +54,10 @@ export const data =
     {
         "id": 6,
         "href": "/projectsix",
-        "img": Budget,       
-        "alt": "Budget Tracker",
-        "heading": "Budget Tracker",
-        "subheading": "Manage your budget online & offline"
+        "img": Book,       
+        "alt": "Google Book Search",
+        "heading": "Google Books Search",
+        "subheading": "Search books and save them!"
     }
 ]
 

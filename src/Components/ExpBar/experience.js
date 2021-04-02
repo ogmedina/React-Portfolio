@@ -53,7 +53,7 @@ function Experience() {
                                 <h4 className="subheading">UTSA Full-Stack Web Development Course</h4>
                             </div>
                             <div className="timeline-body"><p className="text-muted">Enrolled in an intensive program focused on gaining technical
-                            programming skills in HTML5, CSS3, Javascript, jQuery, Bootstrap, Firebase, Node.js, MySQL, MongoDB, Express.js, Handlebars.js & React.js.</p></div>
+                            programming skills in HTML5, CSS3, Javascript, jQuery, Bootstrap, Node.js, MySQL, MongoDB, Express.js, Handlebars.js & React.js.</p></div>
                         </div>
                     </li>
                     <li className="timeline-inverted">

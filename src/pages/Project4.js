@@ -2,6 +2,7 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Password from "../Components/Portfolio/Images/passwordgenerator.JPG"
 import Header from "../Components/Header/Header";
+import { Link } from "react-router-dom";
 
 function ProjectFour() {
     return (
@@ -28,10 +29,10 @@ function ProjectFour() {
                                         <i className="fab fa-github"></i>
                                         Github
                                     </button></a>
-                                    <a href = "/"><button className="btn btn-primary" type="button">
+                                    <Link to = "/"><button className="btn btn-primary" type="button">
                                         <i className="fas fa-times mr-1"></i>
                                         Close Project
-                                    </button></a>
+                                    </button></Link>
                      </div>
                 </div>
             </div>

@@ -1,6 +1,7 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
 import projects from "../projects.js"
+import { Link } from 'react-router-dom'
 
 function Portfolio() {
     return (
@@ -15,12 +16,12 @@ function Portfolio() {
                     {projects.map(data =>
                     <div key = {data.id} className="col-lg-4 col-sm-6 mb-4">
                     <div className="portfolio-item">
-                        <a className="portfolio-link" data-toggle="modal" href={data.href}>
+                        <Link to={data.href} className="portfolio-link" data-toggle="modal">
                             <div className="portfolio-hover">
                                 <div className="portfolio-hover-content"><i className="fas fa-plus fa-3x"></i></div>
                             </div>
                             <img className="img-fluid" src={data.img} alt={data.alt} />
-                        </a>
+                        </Link>
                         <div className="portfolio-caption">
                             <div className="portfolio-caption-heading">{data.heading}</div>
                             <div className="portfolio-caption-subheading text-portfolio">{data.subheading}</div>

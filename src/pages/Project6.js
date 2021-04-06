@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 //import Budget from "../Components/Portfolio/Images/BudgetTracker1.jpg"
 import Header from "../Components/Header/Header";
 import Book from "../Components/Portfolio/Images/googlebooksearch1.jpg"
+import { Link } from "react-router-dom";
 
 function ProjectFive() {
     return (
@@ -32,10 +33,10 @@ function ProjectFive() {
                                         <i className="fab fa-github"></i>
                                         Github
                                     </button></a>
-                                    <a href = "/"><button className="btn btn-primary" type="button">
+                                    <Link to = "/"><button className="btn btn-primary" type="button">
                                         <i className="fas fa-times mr-1"></i>
                                         Close Project
-                                    </button></a>
+                                    </button></Link>
                      </div>
                 </div>
             </div>

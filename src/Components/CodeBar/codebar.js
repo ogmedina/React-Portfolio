@@ -24,12 +24,12 @@ function CodeBar() {
                         <p>Node.js</p>
                     </div>
                     <div className="col-md-2 col-sm-6 my-3">
-                        <i className = "fab fa-npm fa-3x"></i>
-                        <p>NPM</p>
+                        <i className = "fab fa-react fa-3x"></i>
+                        <p>React</p>
                     </div>
                     <div className="col-md-2 col-sm-6 my-3">
                         <i className = "fas fa-database fa-3x"></i>
-                        <p>MySQL</p>
+                        <p>MySQL/MongoDB</p>
                     </div>
                 </div>
             </Container>

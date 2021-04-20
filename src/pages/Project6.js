@@ -1,11 +1,10 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
-//import Budget from "../Components/Portfolio/Images/BudgetTracker1.jpg"
 import Header from "../Components/Header/Header";
 import Book from "../Components/Portfolio/Images/googlebooksearch1.jpg"
 import { Link } from "react-router-dom";
 
-function ProjectFive() {
+function ProjectSix() {
     return (
         <>
         <Header />
@@ -45,4 +44,4 @@ function ProjectFive() {
     )
 }
 
-export default ProjectFive;
+export default ProjectSix;

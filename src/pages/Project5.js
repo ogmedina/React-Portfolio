@@ -1,6 +1,6 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
-import Stay from "../Components/Portfolio/Images/stayinapp.jpg"
+import EmployeeM from "../Components/Portfolio/Images/employeemanager.jpg"
 import Header from "../Components/Header/Header";
 import { Link } from "react-router-dom"
 
@@ -12,22 +12,16 @@ function ProjectFive() {
             <div className="row justify-content-center">
                 <div className="col-lg-8">
                     <div className="modal-body">                                    
-                        <h2 className="text-uppercase">Password Generator</h2>
-                            <p className="item-intro text-muted">Create unique passwords</p>
-                                <img className="img-fluid d-block mx-auto" src={Stay} alt="Stay-In-App" />
-                                    <p>The Stay-In-App is a application that lets users find movies and create a watchlist of movies that they have watched and not watched. It features a log-in screen that saves their watchlist in a MySQL database so their data is persistent.
-                                    Future development of this app will allow users to follow the same process for adding different food & drink, board games, and video games. It will also include a wheel to help users determine what to do without the headache that comes with tough decision making.
-                                    This app was created in conjuction with two other classmates, Mr. Caleb Hopkins (<a href = "https://github.com/CalebTheCreative" rel="noreferrer" target="_blank">Github Link</a>) and Mr. Marshall Bertschy(<a href = "https://github.com/Marshallb98" rel="noreferrer" target="_blank">Github Link</a>)</p>
+                        <h2 className="text-uppercase">Employee Management</h2>
+                            <p className="item-intro text-muted">Command-Line Employee Manager</p>
+                                <img className="img-fluid d-block mx-auto" src={EmployeeM} alt="Employee Manager" />
+                                    <p>A command-line application that allows the user to view and manage departments, roles and employees. It uses node.js, inquirer, and MySQL.</p>
                                     <ul className="list-inline">
-                                        <li>Date: February 2021</li>
+                                        <li>Date: January 2021</li>
                                         <li>Client: UTSA Full-Stack Web Development Course</li>
-                                        <li>Category: Front & Back-End Development</li>
-                                    </ul>               
-                                    <a href = "https://stayingin.herokuapp.com/" rel="noreferrer" target="_blank"><button className="btn btn-success" type="button">
-                                        <i className="fas fa-broadcast-tower"></i>
-                                        Deployed Site
-                                    </button></a>
-                                    <a href = "https://github.com/ogmedina/Project-2" rel="noreferrer" target="_blank"><button className="btn btn-dark" type="button">
+                                        <li>Category: Back-End Development</li>
+                                    </ul>                               
+                                    <a href = "https://github.com/ogmedina/Homework-Employee-Tracker" rel="noreferrer" target="_blank"><button className="btn btn-dark" type="button">
                                         <i className="fab fa-github"></i>
                                         Github
                                     </button></a>

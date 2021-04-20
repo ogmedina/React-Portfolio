@@ -4,13 +4,14 @@ import Container from 'react-bootstrap/Container'
 import Nav from 'react-bootstrap/Nav'
 import { scroller } from 'react-scroll';
 
+
 function Navigation() {
     return (
         <>
         {/* <img className="navbar-brand" src={Logo} alt="?"/> */}
         <Navbar className="navbar" collapseOnSelect expand="lg" bg="dark" fixed="top" variant="dark" id="mainNav">
             <Container>
-            <Navbar.Brand className="navbar-brand" href="/">Oscar Medina</Navbar.Brand>
+            <Navbar.Brand className="navbar-brand" href="/">OGM Web Dev</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav navbarResponsive" >
                 <Nav className="ml-auto navbar-nav text-uppercase">

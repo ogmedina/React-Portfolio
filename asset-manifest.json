@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.7917b961.chunk.css",
-    "main.js": "/React-Portfolio/static/js/main.f5288cd0.chunk.js",
-    "main.js.map": "/React-Portfolio/static/js/main.f5288cd0.chunk.js.map",
+    "main.js": "/React-Portfolio/static/js/main.7a154bda.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.7a154bda.chunk.js.map",
     "runtime-main.js": "/React-Portfolio/static/js/runtime-main.bb69b18a.js",
     "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.bb69b18a.js.map",
     "static/js/2.c64f743f.chunk.js": "/React-Portfolio/static/js/2.c64f743f.chunk.js",
@@ -16,12 +16,14 @@
     "static/media/App.css": "/React-Portfolio/static/media/map-image.3cd6dd98.png",
     "static/media/burger.db6608e3.jpg": "/React-Portfolio/static/media/burger.db6608e3.jpg",
     "static/media/employeemanager.087dbe7d.jpg": "/React-Portfolio/static/media/employeemanager.087dbe7d.jpg",
+    "static/media/employeemanageredit.1199cc85.jpg": "/React-Portfolio/static/media/employeemanageredit.1199cc85.jpg",
     "static/media/googlebooksearch1.0a909939.jpg": "/React-Portfolio/static/media/googlebooksearch1.0a909939.jpg",
     "static/media/mealmaker.670b03ff.JPG": "/React-Portfolio/static/media/mealmaker.670b03ff.JPG",
     "static/media/morrisms.5ac73586.jpg": "/React-Portfolio/static/media/morrisms.5ac73586.jpg",
     "static/media/palmviewedit.17b9235c.png": "/React-Portfolio/static/media/palmviewedit.17b9235c.png",
-    "static/media/passwordgenerator.1f52828d.JPG": "/React-Portfolio/static/media/passwordgenerator.1f52828d.JPG",
     "static/media/profile2.7843800d.jpg": "/React-Portfolio/static/media/profile2.7843800d.jpg",
+    "static/media/rcspots.b8209124.jpg": "/React-Portfolio/static/media/rcspots.b8209124.jpg",
+    "static/media/stayin.38a18032.jpg": "/React-Portfolio/static/media/stayin.38a18032.jpg",
     "static/media/stayinapp.093fc9b7.jpg": "/React-Portfolio/static/media/stayinapp.093fc9b7.jpg",
     "static/media/utsa2.8b7e5bb5.jpg": "/React-Portfolio/static/media/utsa2.8b7e5bb5.jpg"
   },
@@ -29,6 +31,6 @@
     "static/js/runtime-main.bb69b18a.js",
     "static/js/2.c64f743f.chunk.js",
     "static/css/main.7917b961.chunk.css",
-    "static/js/main.f5288cd0.chunk.js"
+    "static/js/main.7a154bda.chunk.js"
   ]
 }

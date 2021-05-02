@@ -8,7 +8,9 @@ function Masthead() {
         <header className="masthead">
             <Container>
                 <div className="masthead-heading text-uppercase">Oscar G. Medina</div>
-                <div className="masthead-subheading">Full-Stack Web Developer</div>
+                <div className="typingwrapper">
+                <div className="masthead-subheading typing">Full-Stack Web Developer</div>
+                </div>                
                 <button className="btn btn-primary btn-x1 text-uppercase" onClick={() => scroller.scrollTo('services', {
                     smooth: true,
                     offset: -70,

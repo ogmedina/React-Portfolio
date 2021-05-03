@@ -5571,13 +5571,29 @@ a.close.disabled {
   margin-bottom: 0;
   line-height: 1.5;
 }
+/* 
+.modalTitle{
+  color: black;
+  background-color:;
+} */
 
+.modalText {
+  text-align: left;
+}
 .modal-body {
   position: relative;
   flex: 1 1 auto;
   padding: 1rem;
-  margin-top: 32px;
-  background-color: black;
+  margin-top: 0px;
+  background-color: #222222;
+}
+
+.buttonRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
 }
 
 .modal-footer {

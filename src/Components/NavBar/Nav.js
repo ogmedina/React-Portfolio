@@ -3,7 +3,7 @@ import Navbar from 'react-bootstrap/Navbar'
 import Container from 'react-bootstrap/Container'
 import Nav from 'react-bootstrap/Nav'
 import { scroller } from 'react-scroll';
-import logo from './images/newlogo3.png';
+import logo from './images/newlogo2.png';
 
 
 function Navigation() {
@@ -40,8 +40,8 @@ function Navigation() {
                         offset: -70,
                         duration: 500,
                     })} >Contact</Nav.Link>   
-                    <Nav.Link className="nav-item nav-link" href="https://github.com/ogmedina" target="_blank">Github</Nav.Link>   
-                    <Nav.Link className="nav-item nav-link" href="https://bit.ly/33K4Pog" target="_blank">Resume</Nav.Link>   
+                    <Nav.Link className="nav-item nav-link" href="https://github.com/ogmedina" target="_blank" rel="noreferrer" >Github</Nav.Link>   
+                    <Nav.Link className="nav-item nav-link" href="https://bit.ly/33K4Pog" target="_blank" rel="noreferrer">Resume</Nav.Link>   
                 </Nav>    
             </Navbar.Collapse>
             </Container>

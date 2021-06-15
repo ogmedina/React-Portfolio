@@ -6,6 +6,7 @@ import EmployeeM from "./Images/employeemanageredit.jpg"
 import Stay from "./Images/stayin.jpg"
 import Book from "./Images/googlebooksearch1.jpg"
 import RC from "./Images/rcspots.jpg"
+import LopzBuilder from "./Images/lopzbuilder.jpg"
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
 
@@ -227,6 +228,38 @@ function MyVerticallyCenteredModal(props) {
     );
   }
 
+  function MyVerticallyCenteredModal7(props) {
+    return (
+      <Modal
+        {...props}
+        size="lg"
+        aria-labelledby="contained-modal-title-vcenter"
+        centered
+      >
+      <Modal.Body>
+        <div className="modal-body">                                    
+          <h2 className="text-uppercase">Lópz Builder</h2>
+            <p className="item-intro text-muted">Contractor Website</p>
+              <img className="img-fluid d-block mx-auto" src={LopzBuilder} alt="Google Books Search" />
+                <p className="modalText">This is a contractor website for the company Lopz Building using React. It provides an about, portfolio, testimony and a contact section.</p>
+                <ul className="list-inline">
+                  <li>Date: June 2021</li>
+                  <li>Client: Lópz Builders</li>
+                  <li>Category: Front & Back-End Development</li>
+                </ul>
+              <div className="row buttonRow">                
+              <a href = "https://www.lopzbuilder.com/" rel="noreferrer" target="_blank"><button className="btn btn-success" type="button">
+                <i className="fas fa-broadcast-tower"></i>
+                 Deployed Site
+                </button></a>
+              <Button onClick={props.onHide}>Close</Button>    
+              </div>              
+        </div>
+       </Modal.Body>        
+      </Modal>
+    );
+  }
+
 function Portfolio() {
     const [modalShow, setModalShow] = useState(false);
     const [modalShow2, setModalShow2] = useState(false);
@@ -234,6 +267,7 @@ function Portfolio() {
     const [modalShow4, setModalShow4] = useState(false);
     const [modalShow5, setModalShow5] = useState(false);
     const [modalShow6, setModalShow6] = useState(false);
+    const [modalShow7, setModalShow7] = useState(false);
 
     return (
         <>
@@ -333,11 +367,27 @@ function Portfolio() {
                         </div>
                     </div>
                 </div>
+                {/* Empty Space for Next Project */}
+                {/* <div className="col-lg-4 col-sm-6 mb-4">                    */}
+                {/* </div> */}
+                <div className="col-lg-4 col-sm-6 mb-4">
+                    <div className="portfolio-item">
+                        <div className="portfolio-link" onClick={() => {setModalShow7(true)}} data-toggle="modal">                          
+                            <div className="portfolio-hover">
+                                <div className="portfolio-hover-content"><i className="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img className="img-fluid" src={LopzBuilder} alt="Lopz Builder" />
+                        </div>
+                        <div className="portfolio-caption">
+                            <div className="portfolio-caption-heading">Lópz Builder</div>
+                            <div className="portfolio-caption-subheading text-portfolio">Contractor Website</div>
+                        </div>
+                    </div>
+                </div>
+                {/* Empty Space for Next Project */}
+                {/* <div className="col-lg-4 col-sm-6 mb-4">                    */}
+                {/* </div> */}
 
-
-
-
-                
                 </div>             
             </Container>  
         <MyVerticallyCenteredModal
@@ -364,60 +414,13 @@ function Portfolio() {
           show={modalShow6}
           onHide={() => setModalShow6(false)}
         />
+         <MyVerticallyCenteredModal7
+          show={modalShow7}
+          onHide={() => setModalShow7(false)}
+        />
         </section>
         </>
     )
 }
 
 export default Portfolio;
-
-
-// return (
-//   <>
-//   <section className="page-section bg-dark" id="portfolio">
-//       <Container>
-//           <div className="text=center">
-//               <h2 className="section-heading text-uppercase portfoliotitle">Portfolio</h2>
-//               <h3 className="section-subheading text-muted">Visit some of my work!</h3>
-//           </div>
-//           <div className="row">
-//               {projects.map(data =>
-//               <div key = {data.id} className="col-lg-4 col-sm-6 mb-4">
-//               <div className="portfolio-item">
-
-//                   <div className="portfolio-link" onClick={() => {setModalShow(true)}} data-toggle="modal">
-
-                    
-//                       <div className="portfolio-hover">
-//                           <div className="portfolio-hover-content"><i className="fas fa-plus fa-3x"></i></div>
-//                       </div>
-//                       <img className="img-fluid" src={data.img} alt={data.alt} />
-//                   </div>
-//                   <div className="portfolio-caption">
-//                       <div className="portfolio-caption-heading">{data.heading}</div>
-//                       <div className="portfolio-caption-subheading text-portfolio">{data.subheading}</div>
-//                   </div>
-//               </div>
-//           </div>
-//           )}
-//           </div>             
-//       </Container>
-//       <Button variant="primary" onClick={() => setModalShow(true)}>
-//     Launch vertically centered modal
-//   </Button>
-
-//   <MyVerticallyCenteredModal
-//     show={modalShow}
-//     onHide={() => setModalShow(false)}
-//   />
-//   <MyVerticallyCenteredModal2
-//     show={modalShow2}
-//     onHide={() => setModalShow2(false)}
-//   />
-
-//   </section>
-//   </>
-// )
-// }
-
-// export default Portfolio;

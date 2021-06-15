@@ -3,15 +3,15 @@ import Navbar from 'react-bootstrap/Navbar'
 import Container from 'react-bootstrap/Container'
 import Nav from 'react-bootstrap/Nav'
 import { scroller } from 'react-scroll';
+import logo from './images/newlogo3.png';
 
 
 function Navigation() {
     return (
         <>
-        {/* <img className="navbar-brand" src={Logo} alt="?"/> */}
         <Navbar className="navbar" collapseOnSelect expand="lg" bg="dark" fixed="top" variant="dark" id="mainNav">
             <Container>
-            <Navbar.Brand className="navbar-brand" href="/">OGM Web Dev</Navbar.Brand>
+            <Navbar.Brand className="navbar-brand" href="/"><img src={logo} width= "150" height="30" className="d-inline-block align-top" alt="logo" /></Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav navbarResponsive" >
                 <Nav className="ml-auto navbar-nav text-uppercase">

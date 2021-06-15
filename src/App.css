@@ -10192,7 +10192,7 @@ img::-moz-selection {
     transition: font-size 0.3s ease-in-out;
   }
   #mainNav .navbar-brand img {
-    height: 2rem;
+    height: 2.7rem;
     transition: height 0.3s ease-in-out;
   }
   #mainNav.navbar-shrink {
@@ -10214,6 +10214,14 @@ img::-moz-selection {
     margin-right: 0;
   }
 }
+
+@media(max-width: 991px){
+  #mainNav .navbar-brand img {
+    height: 2.7rem;
+    /* transition: height 0.3s ease-in-out; */
+  }
+}
+
 
 /* For header in project text */
 header.mastheadproject {

@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.8ffb7f7c.chunk.css",
-    "main.js": "/static/js/main.aa7fdf67.chunk.js",
-    "main.js.map": "/static/js/main.aa7fdf67.chunk.js.map",
+    "main.js": "/static/js/main.c130633f.chunk.js",
+    "main.js.map": "/static/js/main.c130633f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.dd11e37f.js",
     "runtime-main.js.map": "/static/js/runtime-main.dd11e37f.js.map",
     "static/js/2.bcadf625.chunk.js": "/static/js/2.bcadf625.chunk.js",
@@ -17,7 +17,6 @@
     "static/media/lopzbuilder.3a281b00.jpg": "/static/media/lopzbuilder.3a281b00.jpg",
     "static/media/mealmaker.5d83338a.JPG": "/static/media/mealmaker.5d83338a.JPG",
     "static/media/morrisms.5ac73586.jpg": "/static/media/morrisms.5ac73586.jpg",
-    "static/media/newlogo3.19a9b900.png": "/static/media/newlogo3.19a9b900.png",
     "static/media/palmviewedit.8ff368f4.png": "/static/media/palmviewedit.8ff368f4.png",
     "static/media/profile2.8f635bb3.jpg": "/static/media/profile2.8f635bb3.jpg",
     "static/media/rcspots.e9c25907.jpg": "/static/media/rcspots.e9c25907.jpg",
@@ -28,6 +27,6 @@
     "static/js/runtime-main.dd11e37f.js",
     "static/js/2.bcadf625.chunk.js",
     "static/css/main.8ffb7f7c.chunk.css",
-    "static/js/main.aa7fdf67.chunk.js"
+    "static/js/main.c130633f.chunk.js"
   ]
 }

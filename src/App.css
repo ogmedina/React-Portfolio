@@ -10192,7 +10192,7 @@ img::-moz-selection {
     transition: font-size 0.3s ease-in-out;
   }
   #mainNav .navbar-brand img {
-    height: 2.7rem;
+    height: 3.0rem;
     transition: height 0.3s ease-in-out;
   }
   #mainNav.navbar-shrink {
@@ -10217,7 +10217,7 @@ img::-moz-selection {
 
 @media(max-width: 991px){
   #mainNav .navbar-brand img {
-    height: 2.7rem;
+    height: 3.0rem;
     /* transition: height 0.3s ease-in-out; */
   }
 }

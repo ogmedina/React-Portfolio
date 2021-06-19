@@ -118,8 +118,25 @@ body {
   justify-content: center;
 }
 
-.typing {
-  width: 22ch;
+.typed-cursor {
+  font-size: 39px;
+  margin-bottom: 45px;
+  /* height: 5vh; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .typed-cursor{
+    font-size: 30px;
+    margin-bottom: 36px;
+  }
+}
+
+/* old typing sequence */
+/* .typing {
+  width: 29ch;
   animation: typing 2s steps(22), blink .5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
@@ -138,7 +155,7 @@ body {
   50% {
     border-color: transparent
   }
-}
+} */
 
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;

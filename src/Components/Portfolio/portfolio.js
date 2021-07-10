@@ -7,6 +7,7 @@ import Stay from "./Images/stayin.jpg"
 import Book from "./Images/googlebooksearch1.jpg"
 import RC from "./Images/rcspots.jpg"
 import LopzBuilder from "./Images/lopzbuilder.jpg"
+import Music from "./Images/musiclessons.jpg"
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
 
@@ -240,7 +241,7 @@ function MyVerticallyCenteredModal(props) {
         <div className="modal-body">                                    
           <h2 className="text-uppercase">Lópz Builder</h2>
             <p className="item-intro text-muted">Contractor Website</p>
-              <img className="img-fluid d-block mx-auto" src={LopzBuilder} alt="Google Books Search" />
+              <img className="img-fluid d-block mx-auto" src={LopzBuilder} alt="Lópz Builder" />
                 <p className="modalText">This is a contractor website for the company Lopz Building using React. It provides an about, portfolio, testimony and a contact section.</p>
                 <ul className="list-inline">
                   <li>Date: June 2021</li>
@@ -260,6 +261,38 @@ function MyVerticallyCenteredModal(props) {
     );
   }
 
+  function MyVerticallyCenteredModal8(props) {
+    return (
+      <Modal
+        {...props}
+        size="lg"
+        aria-labelledby="contained-modal-title-vcenter"
+        centered
+      >
+      <Modal.Body>
+        <div className="modal-body">                                    
+          <h2 className="text-uppercase">Medina Music Studio</h2>
+            <p className="item-intro text-muted">Music Lesson Website</p>
+              <img className="img-fluid d-block mx-auto" src={Music} alt="Medina Music Studio" />
+                <p className="modalText">This is a music lesson studio website for the company Medina Music Studio using Wordpress. It provides an about, programs, and contact section. The site is hosted on <a href = "https://pantheon.io/" rel="noreferrer" target="_blank">Pantheon</a></p>
+                <ul className="list-inline">
+                  <li>Date: June 2021</li>
+                  <li>Client: Medina Music Studio</li>
+                  <li>Category: Front & Back-End Development</li>
+                </ul>
+              <div className="row buttonRow">                
+              <a href = "https://live-new-test-demo-oscar.pantheonsite.io/" rel="noreferrer" target="_blank"><button className="btn btn-success" type="button">
+                <i className="fas fa-broadcast-tower"></i>
+                 Deployed Site
+                </button></a>
+              <Button onClick={props.onHide}>Close</Button>    
+              </div>              
+        </div>
+       </Modal.Body>        
+      </Modal>
+    );
+  }
+
 function Portfolio() {
     const [modalShow, setModalShow] = useState(false);
     const [modalShow2, setModalShow2] = useState(false);
@@ -268,6 +301,7 @@ function Portfolio() {
     const [modalShow5, setModalShow5] = useState(false);
     const [modalShow6, setModalShow6] = useState(false);
     const [modalShow7, setModalShow7] = useState(false);
+    const [modalShow8, setModalShow8] = useState(false);
 
     return (
         <>
@@ -367,9 +401,6 @@ function Portfolio() {
                         </div>
                     </div>
                 </div>
-                {/* Empty Space for Next Project */}
-                {/* <div className="col-lg-4 col-sm-6 mb-4">                    */}
-                {/* </div> */}
                 <div className="col-lg-4 col-sm-6 mb-4">
                     <div className="portfolio-item">
                         <div className="portfolio-link" onClick={() => {setModalShow7(true)}} data-toggle="modal">                          
@@ -384,9 +415,20 @@ function Portfolio() {
                         </div>
                     </div>
                 </div>
-                {/* Empty Space for Next Project */}
-                {/* <div className="col-lg-4 col-sm-6 mb-4">                    */}
-                {/* </div> */}
+                <div className="col-lg-4 col-sm-6 mb-4">
+                <div className="portfolio-item">
+                        <div className="portfolio-link" onClick={() => {setModalShow8(true)}} data-toggle="modal">                          
+                            <div className="portfolio-hover">
+                                <div className="portfolio-hover-content"><i className="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img className="img-fluid" src={Music} alt="Medina Music Studio" />
+                        </div>
+                        <div className="portfolio-caption">
+                            <div className="portfolio-caption-heading">Medina Music Studio</div>
+                            <div className="portfolio-caption-subheading text-portfolio">Music Lesson Website</div>
+                        </div>
+                    </div>                                     
+                </div>
 
                 </div>             
             </Container>  
@@ -417,6 +459,10 @@ function Portfolio() {
          <MyVerticallyCenteredModal7
           show={modalShow7}
           onHide={() => setModalShow7(false)}
+        />
+         <MyVerticallyCenteredModal8
+          show={modalShow8}
+          onHide={() => setModalShow8(false)}
         />
         </section>
         </>

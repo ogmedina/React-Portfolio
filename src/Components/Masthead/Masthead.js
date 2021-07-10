@@ -11,11 +11,11 @@ const TypedReactHooks = () => {
     React.useEffect(() => {
         const options = {
             strings: [
-                'I\'m a Musician',
                 'I\'m a Full-Stack Web Developer',
+                'I\'m a Software Engineer',
                 'I\'m an Educator',
-                'I\'m a Bassist',
-                'I\'m a Hornist',
+                'I\'m a Web Developer',
+                'I\'m a Musician',
             ],
             typeSpeed: 55,
             backSpeed: 100,

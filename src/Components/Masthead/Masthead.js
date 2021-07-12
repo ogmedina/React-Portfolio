@@ -12,15 +12,15 @@ const TypedReactHooks = () => {
         const options = {
             strings: [
                 'I\'m a Full-Stack Web Developer',
-                'I\'m a Software Engineer',
-                'I\'m an Educator',
-                'I\'m a Web Developer',
-                'I\'m a Musician',
+                // 'I\'m a Software Engineer',
+                // 'I\'m an Educator',
+                // 'I\'m a Web Developer',
+                // 'I\'m a Musician',
             ],
-            typeSpeed: 55,
+            typeSpeed: 65,
             backSpeed: 100,
             smartBackspace: true,
-            loop: true,
+            loop: false,
             // loopCount: Infinity,
             cursorChar: '|',
         };

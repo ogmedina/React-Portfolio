@@ -242,7 +242,7 @@ function MyVerticallyCenteredModal(props) {
           <h2 className="text-uppercase">Lópz Builder</h2>
             <p className="item-intro text-muted">Contractor Website</p>
               <img className="img-fluid d-block mx-auto" src={LopzBuilder} alt="Lópz Builder" />
-                <p className="modalText">This is a contractor website for the company Lopz Building using React. It provides an about, portfolio, testimony and a contact section.</p>
+                <p className="modalText">This is a contractor website for the company Lopz Builder using WordPress. It provides an about, portfolio, and a contact section.</p>
                 <ul className="list-inline">
                   <li>Date: June 2021</li>
                   <li>Client: Lópz Builders</li>

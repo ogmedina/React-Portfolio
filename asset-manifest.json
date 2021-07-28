@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.8e834b8d.chunk.css",
-    "main.js": "/static/js/main.da0c88a6.chunk.js",
-    "main.js.map": "/static/js/main.da0c88a6.chunk.js.map",
+    "main.js": "/static/js/main.f132f2f7.chunk.js",
+    "main.js.map": "/static/js/main.f132f2f7.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.dd11e37f.js",
     "runtime-main.js.map": "/static/js/runtime-main.dd11e37f.js.map",
     "static/js/2.bf7d90e2.chunk.js": "/static/js/2.bf7d90e2.chunk.js",
@@ -14,7 +14,7 @@
     "static/media/burger.441ed0cc.jpg": "/static/media/burger.441ed0cc.jpg",
     "static/media/employeemanageredit.50c39a0f.jpg": "/static/media/employeemanageredit.50c39a0f.jpg",
     "static/media/googlebooksearch1.88eb9fc4.jpg": "/static/media/googlebooksearch1.88eb9fc4.jpg",
-    "static/media/lopzbuilder.3a281b00.jpg": "/static/media/lopzbuilder.3a281b00.jpg",
+    "static/media/lopzbuilder.9cdbe3f1.jpg": "/static/media/lopzbuilder.9cdbe3f1.jpg",
     "static/media/mealmaker.5d83338a.JPG": "/static/media/mealmaker.5d83338a.JPG",
     "static/media/morrisms.5ac73586.jpg": "/static/media/morrisms.5ac73586.jpg",
     "static/media/musiclessons.b7a981be.jpg": "/static/media/musiclessons.b7a981be.jpg",
@@ -28,6 +28,6 @@
     "static/js/runtime-main.dd11e37f.js",
     "static/js/2.bf7d90e2.chunk.js",
     "static/css/main.8e834b8d.chunk.css",
-    "static/js/main.da0c88a6.chunk.js"
+    "static/js/main.f132f2f7.chunk.js"
   ]
 }

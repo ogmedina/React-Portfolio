@@ -53,8 +53,8 @@ function About() {
                                 and brass beginners. As an educator, his students were regular
                                 members of the TMEA Region XV Band/Orchestra, TMEA XV Jazz Bands,
                                 and were superior performers at UIL State Solo & Ensemble and UIL
-                                Concert & Sight-Reding contests. Outside of work, Oscar performed
-                                horn with the McAllen Wind Ensemble and bass guitar with the RGV
+                                Concert & Sight-Reading contests. Outside of work, Oscar performed
+                                horn with the McAllen Wind Ensemble and bass guitar with the Dean Canty Orchestra and the RGV
                                 Swing Street Big Band.
                             </p>
                         </div>

@@ -8,6 +8,7 @@ import Book from "./Images/googlebooksearch1.jpg"
 import RC from "./Images/rcspots.jpg"
 import LopzBuilder from "./Images/lopzbuilder.jpg"
 import Music from "./Images/musiclessons.jpg"
+import Southsample from "./Images/southwebsite.jpg"
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
 
@@ -293,6 +294,38 @@ function MyVerticallyCenteredModal(props) {
     );
   }
 
+  function MyVerticallyCenteredModal9(props) {
+    return (
+      <Modal
+        {...props}
+        size="lg"
+        aria-labelledby="contained-modal-title-vcenter"
+        centered
+      >
+      <Modal.Body>
+        <div className="modal-body">                                    
+          <h2 className="text-uppercase">Harlingen HS South Band Sample Website</h2>
+            <p className="item-intro text-muted">Band Website</p>
+              <img className="img-fluid d-block mx-auto" src={Southsample} alt="HarligenHS South Band Sample" />
+                <p className="modalText">This is a sample band website for the Harlingen HS South's Band Program using Wordpress. It provides an home, about, news, handbook, forms, ensembles, and band boosters section. The site is hosted on <a href = "https://www.bluehost.com/" rel="noreferrer" target="_blank">Bluehost</a></p>
+                <ul className="list-inline">
+                  <li>Date: August 2021</li>
+                  <li>Client: Sample</li>
+                  <li>Category: Front & Back-End Development</li>
+                </ul>
+              <div className="row buttonRow">                
+              <a href = "https://fsc.rik.mybluehost.me/hhssband/" rel="noreferrer" target="_blank"><button className="btn btn-success" type="button">
+                <i className="fas fa-broadcast-tower"></i>
+                 Deployed Site
+                </button></a>
+              <Button onClick={props.onHide}>Close</Button>    
+              </div>              
+        </div>
+       </Modal.Body>        
+      </Modal>
+    );
+  }
+
 function Portfolio() {
     const [modalShow, setModalShow] = useState(false);
     const [modalShow2, setModalShow2] = useState(false);
@@ -302,6 +335,7 @@ function Portfolio() {
     const [modalShow6, setModalShow6] = useState(false);
     const [modalShow7, setModalShow7] = useState(false);
     const [modalShow8, setModalShow8] = useState(false);
+    const [modalShow9, setModalShow9] = useState(false);
 
     return (
         <>
@@ -429,6 +463,20 @@ function Portfolio() {
                         </div>
                     </div>                                     
                 </div>
+                <div className="col-lg-4 col-sm-6 mb-4">
+                <div className="portfolio-item">
+                        <div className="portfolio-link" onClick={() => {setModalShow9(true)}} data-toggle="modal">                          
+                            <div className="portfolio-hover">
+                                <div className="portfolio-hover-content"><i className="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img className="img-fluid" src={Southsample} alt="HHSS Band Website" />
+                        </div>
+                        <div className="portfolio-caption">
+                            <div className="portfolio-caption-heading">HHSS Band Website</div>
+                            <div className="portfolio-caption-subheading text-portfolio">Sample Band Website</div>
+                        </div>
+                    </div>                                     
+                </div>
 
                 </div>             
             </Container>  
@@ -463,6 +511,10 @@ function Portfolio() {
          <MyVerticallyCenteredModal8
           show={modalShow8}
           onHide={() => setModalShow8(false)}
+        />
+        <MyVerticallyCenteredModal9
+          show={modalShow9}
+          onHide={() => setModalShow9(false)}
         />
         </section>
         </>

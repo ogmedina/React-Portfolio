@@ -41,7 +41,7 @@ function Navigation() {
                         duration: 500,
                     })} >Contact</Nav.Link>   
                     <Nav.Link className="nav-item nav-link" href="https://github.com/ogmedina" target="_blank" rel="noreferrer" >Github</Nav.Link>   
-                    <Nav.Link className="nav-item nav-link" href="https://bit.ly/medinaResume" target="_blank" rel="noreferrer">Resume</Nav.Link>   
+                    {/* <Nav.Link className="nav-item nav-link" href="" target="_blank" rel="noreferrer">Resume</Nav.Link>    */}
                 </Nav>    
             </Navbar.Collapse>
             </Container>

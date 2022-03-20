@@ -4,6 +4,7 @@ import TAMUK from './Images/TAMUK.png'
 import Palmview from './Images/palmviewedit.png'
 import Morris from './Images/morrisms.jpg'
 import UTSA from './Images/utsa2.jpg'
+import IDEA from './Images/ideaps.jpg'
 
 function Experience() {
     return (
@@ -49,13 +50,23 @@ function Experience() {
                         <div className="timeline-image"><img className="rounded-circle img-fluid" src={UTSA} alt="UTSA" /></div>
                         <div className="timeline-panel">
                             <div className="timeline-heading">
-                                <h4>October 2020</h4>
-                                <h4 className="subheading">UTSA Full-Stack Web Development Course</h4>
+                                <h4>April 2021</h4>
+                                <h4 className="subheading">UTSA Full-Stack Web Development Coding Boot Camp</h4>
                             </div>
-                            <div className="timeline-body"><p className="text-muted">Enrolled in an intensive program focused on gaining technical
+                            <div className="timeline-body"><p className="text-muted">Completed an intensive program focused on gaining technical
                             programming skills in HTML5, CSS3, Javascript, jQuery, Bootstrap, Node.js, MySQL, MongoDB, Express.js, Handlebars.js & React.js.</p></div>
                         </div>
                     </li>
+                    <li>
+                        <div className="timeline-image"><img className="rounded-circle img-fluid" src={IDEA} alt="IDEA Public Schools" /></div>
+                        <div className="timeline-panel">
+                            <div className="timeline-heading">
+                                <h4>September 2021</h4>
+                                <h4 className="subheading">Remote Conferencing Teacher</h4>
+                            </div>
+                            <div className="timeline-body"><p className="text-muted">Instructed students ranging from grades 1-6 with the goal of increasing student achievement through virtual learning in reading and mathematics.</p></div>
+                        </div>
+                    </li>               
                     <li className="timeline-inverted">
                         <div className="timeline-image">
                             <h4>More<br />to<br />Come!</h4>

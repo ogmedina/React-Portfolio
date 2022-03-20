@@ -2534,8 +2534,8 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #fca311;
-  border-color: #fca311;
+  background-color: #00509d;
+  border-color: black;
 }
 .btn-primary:hover {
   color: #fff;
@@ -10488,10 +10488,18 @@ header.masthead .masthead-heading {
   margin-left: 0;
   text-align: center;
   color: white;
-  border: 7px solid #e5e5e5;
+  border: 7px solid black;
+  outline: solid white;
   border-radius: 100%;
-  background-color: #fca311;
+  background-color: #00509d;
 }
+
+
+
+
+
+
+
 .timeline > li .timeline-image h4 {
   font-size: 10px;
   line-height: 14px;
